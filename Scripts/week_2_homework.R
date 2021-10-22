@@ -10,3 +10,7 @@ plus10 <- times3 + 10
 prob3 <- plus10[c(TRUE, FALSE)]
 prob3
 plus10
+
+seq(from = 1, to = length(plus10), by = 2)
+seq(from = 1, to = length(prob3), by = 2)
+seq(1, 23, 2)
