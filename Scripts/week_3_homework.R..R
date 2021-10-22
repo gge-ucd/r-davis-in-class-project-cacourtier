@@ -9,3 +9,5 @@ surveys_new <- surveys_new[complete.cases(surveys_new), ]
 surveys_new
 challenge_base <- surveys_new[(surveys_new[,2]>150),]
 challenge_base
+challenge_base2 <- surveys_new[(surveys_new[,2]>170),]
+challenge_base2
